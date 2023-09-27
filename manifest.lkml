@@ -1,16 +1,13 @@
 
 ## Connection Constants:
 constant: GA4_CONNECTION {
-  value: "looker-demos"
-  export: override_required
+  value: "ga4-gauss-poc"
 }
 
 constant: GA4_SCHEMA {
-  value: "adh-demo-data-review.analytics_213025502"
-  export: override_optional
+  value: "ga4-gauss-poc.analytics_151221737"
 }
 
 constant: GA4_TABLE_VARIABLE {
   value: "events_*"
-  export: override_optional
 }
