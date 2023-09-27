@@ -1,6 +1,6 @@
 connection: "@{GA4_CONNECTION}"
 
-label: "Google Analytics 4"
+label: "Google Analytics 4 - Verti"
 
 include: "/dashboards/*.dashboard"
 include: "/explores/**/*.explore.lkml"
